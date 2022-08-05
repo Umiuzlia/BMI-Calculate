@@ -15,7 +15,7 @@ btn.addEventListener("click", function () {
 
   let BMI = weight / (height * height);
 
-  BMI = BMI.toFixed(2);
+  BMI = BMI.toFixed(1);
 
   document.querySelector("#result").innerHTML = BMI;
 
